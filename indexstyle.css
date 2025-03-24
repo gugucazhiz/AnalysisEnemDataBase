@@ -8,11 +8,11 @@ body {
 }
 .grafic2{
     display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: rgb(250, 250, 250);
-            margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+    margin: 0;
 }
 .main {
     width: 100%;
@@ -42,14 +42,28 @@ t{
     font-size: 70px;
     margin-top: 0%;
 }
-.intro {
+.texts {
     padding: 20px;
     margin: 150px; /* Ajuste da margem superior */
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     text-align: justify;
     color: rgb(43, 43, 43);
 }
+.subtitle {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; /* Adiciona espaçamento entre o texto e o ícone */
+    margin-top: -29px; /* Reduzi a margem negativa para evitar sobreposição */
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+}
+
 h1{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -57,7 +71,7 @@ h1{
     font-style: normal;
     color:  black;
 }
-p {
+p,li {
     display: block;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -66,8 +80,24 @@ p {
     line-height: 1.5; 
     text-align: center;
 }
+li{
+    text-align: left;
+}
 .chart-container {
     width: 100%;
     height: 500px;
     margin: 20px auto;
+}
+.endpage{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; /* Adiciona espaçamento entre o texto e o ícone */
+    margin-top: 50px; /* Reduzi a margem negativa para evitar sobreposição */
+    font-size: 12px;
+    color: rgb(116, 115, 115);
 }
