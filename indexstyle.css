@@ -6,7 +6,14 @@ body {
     height: 100%;
     background-color: rgb(250, 250, 250);
 }
-
+.grafic2{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(250, 250, 250);
+            margin: 0;
+}
 .main {
     width: 100%;
     height: auto;
