@@ -48,7 +48,7 @@
 [E-mail](gustavo_msn_@hotmail.com)
    
 # NAYARA
-[LinkedIn](https://www.linkedin.com/nayara-oliveira-116657348/)
+[LinkedIn](https://www.linkedin.com/in/nayara-oliveira-116657348)
 [GitHub](https://github.com/nyvoli)
 [E-mail](nayara.oliveira1812@gmail.com)
   
