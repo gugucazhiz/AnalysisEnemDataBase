@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
-    background-color: rgb(250, 250, 250);
+    background: linear-gradient(180deg, rgb(200, 200, 200) 0%, rgb(238, 238, 238) 35%, rgb(255, 255, 255) 100%);
 }
 .grafic2{
     display: flex;
@@ -14,41 +14,49 @@ body {
     background-color: rgb(250, 250, 250);
     margin: 0;
 }
+#ed7ecaf33dda406ba919b6ebc448ab1c {
+    width: 50vh;
+    height: 50vh; 
+    min-height: 300px; 
+}
 .main {
     width: 100%;
     height: auto;
 }
-
+#ending{
+    background: linear-gradient(90deg, rgba(255,221,89,1) 0%, rgba(255,145,77,1) 100%);
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
 .imagemprincipal {
     width: 100%;
-    height: auto;
+    height: 100vh; /* Altura total da tela */
+    object-fit: cover; /* Mantém a proporção e cobre a tela */
 }
 
 .text {
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
     position: absolute;
-    top: 85%;
+    top: 70%;
     left: 50%;
-    transform: translate(5%, -50%);
-    font-size: 35px;
+    transform: translate(-10%, -50%); 
+    text-align: left;
+    font-size: clamp(14px, 3vw, 25px); 
     color: white;
     text-shadow: rgb(26, 26, 26) 0.1em 0.1em 0.2em;
-    text-align: left;
-    margin-bottom: 0%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
 }
 t{
-    font-size: 70px;
-    margin-top: 0%;
+    font-size: clamp(24px, 6vw, 50px);
 }
 .texts {
     padding: 20px;
-    margin: 150px; /* Ajuste da margem superior */
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 45px; /* Ajuste da margem superior */
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: justify;
-    color: rgb(43, 43, 43);
+    color: rgb(59, 59, 59);
 }
 .subtitle {
     font-family: "Outfit", sans-serif;
@@ -60,7 +68,7 @@ t{
     align-items: center; 
     gap: 5px; /* Adiciona espaçamento entre o texto e o ícone */
     margin-top: -29px; /* Reduzi a margem negativa para evitar sobreposição */
-    font-size: 12px;
+    font-size: clamp(8px, 3vw, 12px); 
     color: rgb(126, 126, 126);
 }
 
@@ -69,14 +77,23 @@ h1{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color:  black;
+    color:  rgb(242, 136, 34);
+    font-size: clamp(20px, 6vw, 30px); 
+}
+h1e{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:  rgb(255, 255, 255);
+    font-size: clamp(20px, 6vw, 30px); 
 }
 p,li {
     display: block;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 17.5px;
+    font-size: clamp(10px, 3vw, 17px);
     line-height: 1.5; 
     text-align: center;
 }
@@ -96,8 +113,16 @@ li{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    gap: 5px; /* Adiciona espaçamento entre o texto e o ícone */
-    margin-top: 50px; /* Reduzi a margem negativa para evitar sobreposição */
-    font-size: 12px;
+    gap: 5px; 
+    margin-top: 50px;
+    font-size: clamp(7px, 3vw, 14px); 
     color: rgb(116, 115, 115);
+}
+@media screen and (max-width: 768px) {
+   body{
+    display: block;
+    margin: 0%;
+    overflow-x: hidden;
+   }
+   
 }
